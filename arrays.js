@@ -65,5 +65,10 @@ var steed = ['horse', 'camel', 'kangaroo']
 
 function removeElementFromEndOfArray(steed) {
   steed = steed.slice(0, steed.length - 1);
-  return steed;
+}
+
+ steed = ['horse', 'camel', 'kangaroo'];
+function removeElementFromEndOfArray(steed) {
+  steed.slice(0, steed.length - 1)
+  
 }
